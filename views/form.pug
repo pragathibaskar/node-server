@@ -1,0 +1,18 @@
+html
+  head
+  body
+    form(action='/info', method='POST')
+      p
+        | Name:
+        input(type='text', name='name',required)
+        br
+        br
+        |  Gender:
+        input(type='text', name='gender',required)
+        br
+        br
+        |  Age:
+        input(type='text', name='age',required)
+        br
+        br
+      input(type='submit', value='Submit')
